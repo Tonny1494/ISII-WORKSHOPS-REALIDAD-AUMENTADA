@@ -12,6 +12,30 @@ public class CarInsurance {
 		this.marital = marital;
 	}
 
+	public char getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+	public int getAge() {
+		return Age;
+	}
+
+	public void setAge(int age) {
+		Age = age;
+	}
+
+	public boolean isMarital() {
+		return marital;
+	}
+
+	public void setMarital(boolean marital) {
+		this.marital = marital;
+	}
+
 	
 	
 }
