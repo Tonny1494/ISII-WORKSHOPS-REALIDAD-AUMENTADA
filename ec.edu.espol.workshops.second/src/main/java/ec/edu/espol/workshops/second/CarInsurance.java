@@ -12,6 +12,10 @@ public class CarInsurance {
 		this.marital = marital;
 	}
 
+	public CarInsurance(String string, int age2, boolean marital2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public char getSexo() {
 		return sexo;
 	}
@@ -49,13 +53,14 @@ public class CarInsurance {
 			return base -100;
 			
 		}
+		return base;
 		
 	}
 	
 	
 	public static void main(String [] args) {
 		CarInsurance user1 = new CarInsurance("M",23,false);
-		System.out.println(user1.getPremium())
+		System.out.println(user1.getPremium());
 	}
 
 	
