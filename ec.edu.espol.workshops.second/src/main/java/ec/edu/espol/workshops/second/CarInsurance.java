@@ -2,13 +2,13 @@ package ec.edu.espol.workshops.second;
 
 public class CarInsurance {
 	public char sexo;
-	public int  Age ;
+	public int  age ;
 	public boolean marital;
 	
 	public CarInsurance(char sexo, int age, boolean marital) {
 		super();
 		this.sexo = sexo;
-		Age = age;
+		age = age;
 		this.marital = marital;
 	}
 
@@ -25,11 +25,11 @@ public class CarInsurance {
 	}
 
 	public int getAge() {
-		return Age;
+		return age;
 	}
 
 	public void setAge(int age) {
-		Age = age;
+		age = age;
 	}
 
 	public boolean isMarital() {
@@ -42,14 +42,14 @@ public class CarInsurance {
 	
 	public int getPremium() {
 		int base = 500;
-		if (this.sexo=='M' && this.marital==false && this.Age<=25) {
+		if (this.sexo=='M' && this.marital==false && this.age<=25) {
 			return base + 1500;
 			
 		}
 		if (this.sexo=='F' || this.marital==false) {
 			return base - 200;
 		}
-		if (this.Age>=45 && this.Age<65) {
+		if (this.age>=45 && this.age<65) {
 			return base -100;
 			
 		}
