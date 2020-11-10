@@ -63,6 +63,7 @@ public class CarInsurance {
 		System.out.println(user3.getPremium());
 		CarInsurance user4 = new CarInsurance('M',45,true);
 		System.out.println(user4.getPremium());
+		
 	}
 
 	
