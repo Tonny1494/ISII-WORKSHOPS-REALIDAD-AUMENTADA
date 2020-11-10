@@ -53,7 +53,6 @@ public class CarInsurance {
 		
 	}
 	
-	
 	public static void main(String [] args) {
 		CarInsurance user1 = new CarInsurance('M',23,false);
 		System.out.println(user1.getPremium());
