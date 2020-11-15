@@ -17,20 +17,20 @@
 ## (Comments)
 #Sample Feature Definition Template
  
-Feature: Calculate the insurance prime for a man
+
+Feature: Calculate the insurance prime for a underage
   
 
   
-  Scenario: Customer is not married and is m
-		Given customer is not married
-		When i ask you for you <marriage>
-		Then i should get <marriage>
+  Scenario: Customer is underage
+		Given customer is not underage
+		When i ask you for you <underage>
+		Then i should be <underage>
 
  
 	Examples:
 
-	  | sex | marriage | price |
-		| M | married | 300 |
-		| F | not married | 500 |
-
-
+	  | sex | underage | price |
+		| M | underage | 300 |
+		| F | not underage | 500 |
+		

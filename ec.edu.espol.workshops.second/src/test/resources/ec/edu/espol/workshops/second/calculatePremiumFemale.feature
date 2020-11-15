@@ -16,21 +16,22 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
- 
-Feature: Calculate the insurance prime for a man
+@tag
+
+Feature: Calculate the insurance prime for a female
   
 
   
-  Scenario: Customer is not married and is m
-		Given customer is not married
-		When i ask you for you <marriage>
-		Then i should get <marriage>
+  Scenario: Customer is a female
+		Given customer is a female
+		When i ask you for you <genre>
+		Then i should be <genre>
 
  
 	Examples:
 
-	  | sex | marriage | price |
-		| M | married | 300 |
-		| F | not married | 500 |
-
+	  | sex | genre | price |
+		| M | man | 300 |
+		| F | female | 500 |
+		
 
