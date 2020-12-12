@@ -38,7 +38,7 @@ public class CarInsurance {
 	}
 	
 	public int getPremium() {
-		int base = 500;
+		int base = 600;
 		if (this.sexo=='M' && this.marital==false && this.age<=25) {
 			return base + 1500;
 			
