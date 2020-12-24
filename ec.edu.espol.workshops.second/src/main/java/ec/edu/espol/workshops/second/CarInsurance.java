@@ -56,18 +56,18 @@ public class CarInsurance {
 	
 	public static void main(String [] args) {
 		
-		CarInsurance user1 = new CarInsurance('M',23,false);
+		CarInsurance user1 = new CarInsurance('M',26,false);
 
 		System.out.println(user1.getPremium());
 		
 		CarInsurance user2 = new CarInsurance('F', 80, false);
 		System.out.println(user2.getPremium());
 		
-		CarInsurance user3 = new CarInsurance('M',23,true);
+		CarInsurance user3 = new CarInsurance('M',18,true);
 		
 		System.out.println(user3.getPremium());
 		
-		CarInsurance user4 = new CarInsurance('M',45,true);
+		CarInsurance user4 = new CarInsurance('M',66,true);
 		System.out.println(user4.getPremium());
 	}
 
