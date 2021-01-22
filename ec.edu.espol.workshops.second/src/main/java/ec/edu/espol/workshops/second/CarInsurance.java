@@ -50,6 +50,10 @@ public class CarInsurance {
 			return base -100;
 			
 		}
+		if (this.sexo =='M' && (this.age > 25 && this.age < 45)) {
+			return base -100;
+		}
+		
 		return base;
 		
 	}
