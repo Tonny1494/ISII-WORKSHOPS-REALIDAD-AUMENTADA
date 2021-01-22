@@ -55,7 +55,7 @@ public class CarInsurance {
 		}
 		
 		return base;
-		
+	
 	}
 	
 	public static void main(String [] args) {
